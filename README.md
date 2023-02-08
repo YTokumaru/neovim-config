@@ -15,7 +15,7 @@ A configuration file for neovim, for c/c++, python developments
 2. Check that your environment matches mason requirements using ":checkhealth mason"
 3. If anything is missing, then install/update it
 4. Change the path to python interpreter with debugpy on file lua/nvim-dap-python_conf.lua
-5. It should work
+5. Download the language config files for tree sitter using :TSInstall command
 
 ## When installing new plugins
 1. Get the plugin using packer by adding to plugins.lua
