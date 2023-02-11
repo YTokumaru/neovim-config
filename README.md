@@ -44,4 +44,4 @@ and uses default key bindings.
 3. "require" that file from init.lua
 
 # Warning
-If you are going to use github to sync the setting of neovim for your devices, I highly suggest branching this repository. (I would probably add more plugins to this repository, meaning that a push to master can suddenly change *your* mapping/plugins)
+If you are going to use github to sync the setting of neovim for your devices, I highly suggest forking this repository. (I would probably add more plugins to this repository, meaning that a push to master can suddenly change *your* mapping/plugins)
