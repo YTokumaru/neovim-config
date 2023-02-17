@@ -32,18 +32,17 @@ vim.diagnostic.config({
 -- colourcheme
 vim.cmd("colorscheme nordfox")
 
-
 require("lualine").setup{
     options = {
         theme = 'everforest',
     },
 
     sections = {
-        lualine_c = {"hostname"}
+        lualine_c = { "hostname" }
     },
 
     inactive_sections = {
-        lualine_c = {"hostname"}
+        lualine_c = { "hostname" }
     },
     winbar = {
         lualine_a = {'filename'},
@@ -52,7 +51,7 @@ require("lualine").setup{
         }
     },
     inactive_winbar = {
-        lualine_a = {'filename'}   
+        lualine_a = {'filename'}
     }
 }
 
@@ -61,6 +60,7 @@ function V.cmpIcon()
         fields = {'menu', 'abbr', 'kind'},
         format = function(entry, item)
             local menu_icon = {
+                copilot = '',
                 nvim_lsp = '',
                 luasnip = '',
                 buffer = '',

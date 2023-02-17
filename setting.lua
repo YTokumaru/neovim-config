@@ -13,7 +13,7 @@ vim.cmd('set shiftwidth=4')	    -- spaces to move when using << or >> operator
 
 -- list of lsp servers to install
 M.servers = {
-        "sumneko_lua",
+        "lua_ls",
         "clangd",
         "cmake",
         "fortls",
@@ -21,12 +21,32 @@ M.servers = {
         "ltex",
         "marksman",
         "pyright",
-        "bashls"
+        "bashls",
 }
 
 -- list of external packages to install with mason
 M.packages = {
     "cpptools"
+}
+
+M.languages = {
+        "bash",
+        "c",
+        "cpp",
+        "cmake",
+        "comment",
+        "cuda",
+        "latex",
+        "make",
+        "html",
+        "javascript",
+        "json",
+        "lua",
+        "python",
+        "regex",
+        "vim",
+        "help",
+        "markdown",
 }
 
 return M
