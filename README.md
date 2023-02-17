@@ -30,7 +30,6 @@ Its main features are:
 3. Check that your environment matches mason requirements using ":checkhealth mason"
 4. If anything is missing, then install/update it
 5. Change the path to python interpreter with debugpy on file lua/nvim-dap-python_conf.lua. (See the nim-dap and nim-dap-python for detailed information)
-6. Download the language config files for tree sitter using :TSInstall command, eg. TSInstall python. This will enable syntax highlighting.
 
 If the icons are not showing, make sure that you have installed Nerd Font on your system.
 
