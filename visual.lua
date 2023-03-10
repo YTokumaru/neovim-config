@@ -33,10 +33,9 @@ vim.diagnostic.config({
 vim.cmd("colorscheme nordfox")
 
 require("lualine").setup{
-    options = {
-        theme = 'everforest',
-    },
-
+--    options = {
+--        theme = 'everforest',
+--    },
     sections = {
         lualine_c = { "hostname" }
     },
